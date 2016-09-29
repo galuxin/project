@@ -1,0 +1,52 @@
+.otstup {
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 0px;
+    padding-bottom: 15px;
+}
+.bordik{
+    border: 1px solid #ffffff;
+}
+.bordik:hover{
+    background-color: white;
+}
+
+.mag h1{
+    font-size: 30px;
+    color: #444444;
+    margin-top: 8px;
+    margin-bottom: 30px;
+}
+.mag h3{
+    font-size: 22px;
+    color: #444444;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.mag{
+    margin-bottom: 15px;
+}
+
+.product{
+    min-height: 380px;
+}
+
+.rad{
+    border-radius: 2px;
+}
+
+.hover:hover,
+.hover:focus{
+   text-decoration: none;
+}
+.hav{
+   color: #6d6d6d;
+}
+.hav:hover{
+   color: #cecece;
+}
+.texn{
+   color: #6d6d6d;
+   padding-left: 30px; 
+   padding-right: 30px;
+}

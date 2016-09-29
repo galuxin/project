@@ -1,0 +1,257 @@
+/*
+==============================================
+CSS3 ANIMATION CHEAT SHEET
+==============================================
+
+Made by Justin Aguilar
+
+www.justinaguilar.com/animations/
+
+Questions, comments, concerns, love letters:
+justin@justinaguilar.com
+==============================================
+*/
+
+/*
+==============================================
+slideDown
+==============================================
+*/
+
+.slideDown{
+	animation-name: slideDown;
+	-webkit-animation-name: slideDown;	
+
+	animation-duration: 2.5s;	
+	-webkit-animation-duration: 2.5s;
+
+	animation-timing-function: ease;	
+	-webkit-animation-timing-function: ease;	
+
+	visibility: visible !important;						
+}
+
+@keyframes slideDown {
+	0% {
+		transform: translateY(-100%);
+	}			
+	100% {
+		transform: translateY(0%);
+	}		
+}
+
+@-webkit-keyframes slideDown {
+	0% {
+		-webkit-transform: translateY(-100%);
+	}
+	100% {
+		-webkit-transform: translateY(0%);
+	}	
+}
+
+/*
+==============================================
+slideUp
+==============================================
+*/
+
+.slideUp{
+	animation-name: slideUp;
+	-webkit-animation-name: slideUp;	
+
+	animation-duration: 3s;	
+	-webkit-animation-duration: 3s;
+
+	animation-timing-function: ease;	
+	-webkit-animation-timing-function: ease;
+
+	visibility: visible !important;			
+}
+
+@keyframes slideUp {
+	0% {
+		transform: translateY(100%);
+	}
+	100% {
+		transform: translateY(0%);
+	}	
+}
+
+@-webkit-keyframes slideUp {
+	0% {
+		-webkit-transform: translateY(100%);
+	}
+	100% {
+		-webkit-transform: translateY(0%);
+	}	
+}
+
+/*
+==============================================
+fadeIn0
+==============================================
+*/
+
+.fadeIn0{
+	animation-name: fadeIn;
+	-webkit-animation-name: fadeIn;	
+
+	animation-duration: 0.55s;	
+	-webkit-animation-duration: 0.55s;
+
+	animation-timing-function: ease-in-out;	
+	-webkit-animation-timing-function: ease-in-out;		
+
+	visibility: visible !important;	
+}
+
+@keyframes fadeIn0 {
+	0% {
+		transform: scale(0.1);
+		opacity: 1;		
+	}
+	100% {
+		transform: scale(1);
+		opacity: 1;	
+	}		
+}
+
+@-webkit-keyframes fadeIn0 {
+	0% {
+		-webkit-transform: scale(0.1);
+		opacity: 1;		
+	}
+	100% {
+		-webkit-transform: scale(1);
+		opacity: 1;	
+	}		
+}
+
+/*
+==============================================
+fadeIn
+==============================================
+*/
+
+.fadeIn{
+	animation-name: fadeIn;
+	-webkit-animation-name: fadeIn;	
+
+	animation-duration: 2.5s;	
+	-webkit-animation-duration: 2.5s;
+
+	animation-timing-function: ease-in-out;	
+	-webkit-animation-timing-function: ease-in-out;		
+
+	visibility: visible !important;	
+}
+
+@keyframes fadeIn {
+	0% {
+		transform: scale(0.8);
+		opacity: 0.0;		
+	}
+	100% {
+		transform: scale(1);
+		opacity: 1;	
+	}		
+}
+
+@-webkit-keyframes fadeIn {
+	0% {
+		-webkit-transform: scale(0.8);
+		opacity: 0.0;		
+	}
+	100% {
+		-webkit-transform: scale(1);
+		opacity: 1;	
+	}		
+}
+
+/*
+==============================================
+fadeIn2
+==============================================
+*/
+
+.fadeIn2{
+	animation-name: fadeIn;
+	-webkit-animation-name: fadeIn;	
+
+	animation-duration: 5.5s;	
+	-webkit-animation-duration: 5.5s;
+
+	animation-timing-function: ease-in-out;	
+	-webkit-animation-timing-function: ease-in-out;		
+
+	visibility: visible !important;	
+}
+
+@keyframes fadeIn2 {
+	0% {
+		transform: scale(0.1);
+		opacity: 0.0;		
+	}
+	100% {
+		transform: scale(1);
+		opacity: 1;	
+	}		
+}
+
+@-webkit-keyframes fadeIn2 {
+	0% {
+		-webkit-transform: scale(0.8);
+		opacity: 0.0;		
+	}
+	100% {
+		-webkit-transform: scale(1);
+		opacity: 1;	
+	}		
+}
+
+/*
+==============================================
+pulse
+==============================================
+*/
+
+.pulse{
+	animation-name: pulse;
+	-webkit-animation-name: pulse;	
+
+	animation-duration: 1.5s;	
+	-webkit-animation-duration: 1.5s;
+
+	animation-iteration-count: infinite;
+	-webkit-animation-iteration-count: infinite;
+}
+
+@keyframes pulse {
+	0% {
+		transform: scale(0.9);
+		opacity: 0.7;		
+	}
+	50% {
+		transform: scale(1);
+		opacity: 1;	
+	}	
+	100% {
+		transform: scale(0.9);
+		opacity: 0.7;	
+	}			
+}
+
+@-webkit-keyframes pulse {
+	0% {
+		-webkit-transform: scale(0.95);
+		opacity: 0.7;		
+	}
+	50% {
+		-webkit-transform: scale(1);
+		opacity: 1;	
+	}	
+	100% {
+		-webkit-transform: scale(0.95);
+		opacity: 0.7;	
+	}			
+}
